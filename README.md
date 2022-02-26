@@ -27,3 +27,11 @@ where t<sub>r</sub> is rise in time and t<sub>f</sub> is fall time. In this desi
 <p align="center"> Fig.2 Reference Waveform </p>
 
 From Fig.1, reference circuit design, we can see the enable circuit which comprises of the pMOS M1, M2 and nMOS M3, M4. The inverter in each stage consists of a pMOS and nMOS. Power supply for the circuit is given through VDD and VA acts as the enable pin. The output waveform is obtained through VOUT when VDD = 5V and VA=5V, which represented through Fig.2, Reference Output Waveform.
+
+## Transistor Sizing
+Because the standby power in a CMOS inverter is relatively low, size may be dependent on switching speed. The switching time in the pull-up mode must be the same as the switching time in the pull-down mode. The switching time is thus a function of the nMOS and pMOS transistor's current capacity. Assuming that V<sub>TN</sub> = |V<sub>TP</sub>|, equal switching times then implies that the conduction parameters of the nMOS and pMOS devices be equal and assuming that µ<sub>n</sub> ≈ 2µ<sub>p</sub> , we have (W/L)p = 2(W/L)n.
+
+| MOS | Width | Length |
+|---|---|---|
+| pMOS | 0.2 µm | 0.03 µm |
+| nMOS | 0.1 µm | 0.03 µm |
