@@ -14,7 +14,9 @@ A Ring Oscillator is device which uses a odd number of inverters to make oscilla
 # Circuit Design
 The ring oscillator is designed using odd number of inverters as a chain. Here we use CMOS inverter, which has complementary MOS transistors: pMOS on the top and nMOS on the bottom. The frequency of the oscillations produced depends upon the gate delay of the MOSFET, which is the finite time between the change of input and the corresponding change of
 output. If we add inverters to the existing circuit, the total gate delay increases, thereby decreasing the frequency. The frequency of oscillations of N stage ring oscillator is given by,
+
 ![Screenshot 2022-02-26 1710251](https://user-images.githubusercontent.com/89923461/155841843-bd6016e2-d39e-48f5-8735-7e6448c12a58.png)
+
 where t<sub>r</sub> is rise in time and t<sub>f</sub> is fall time. In this design, we include a enable circuit to control the ring oscillator. When the enable circuit is turned OFF, no oscillations are produced. There will be oscillations if you turn the enable circuit to be ON. For the enable circuit, we have to use a NAND gate asthe first stage of the ring oscillator. If one input is always high, then the NAND gate acts as the inverter of the second input.
 
 ## Reference Circuit Diagram
