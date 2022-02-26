@@ -32,8 +32,9 @@ From Fig.1, reference circuit design, we can see the enable circuit which compri
 
 ## Transistor Sizing
 Because the standby power in a CMOS inverter is relatively low, size may be dependent on switching speed. The switching time in the pull-up mode must be the same as the switching time in the pull-down mode. The switching time is thus a function of the nMOS and pMOS transistor's current capacity. Assuming that V<sub>TN</sub> = |V<sub>TP</sub>|, equal switching times then implies that the conduction parameters of the nMOS and pMOS devices be equal and assuming that µ<sub>n</sub> ≈ 2µ<sub>p</sub> , we have (W/L)p = 2(W/L)n.
-
+ 
 | MOS | Width | Length |
 |---|---|---|
 | pMOS | 0.2 µm | 0.03 µm |
 | nMOS | 0.1 µm | 0.03 µm |
+
