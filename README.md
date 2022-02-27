@@ -226,7 +226,7 @@ For the given voltage supply of 5 V, the frequency of the oscillation obtained i
 
 # Author
 
-Ramachandra T, Bachelors in Engineering at Madras Institute of Technology, Anna University
+Ramachandra T, Bachelors degree in Electronics and Communication Engineering at Madras Institute of Technology, Anna University
 
 # Acknowledgement
 
