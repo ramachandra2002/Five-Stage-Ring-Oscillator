@@ -93,7 +93,7 @@ The five stage ring oscillator is simulated by created a schematic using the *ri
 <p align="center">Fig.11 Parameters for  V<sub>pulse</sub> </p>
 
 ## Testbench Settings
-After setting parameters of the voltage sources of the testbench circuit, we have to include the model files from this location, '''/PDK/SAED_PDK32nm/hspice''' and select the file, *saed32nm.lib*.
+After setting parameters of the voltage sources of the testbench circuit, we have to include the model files from this location, `/PDK/SAED_PDK32nm/hspice` and select the file, *saed32nm.lib*.
 
 ![model_Picture1](https://user-images.githubusercontent.com/89923461/155869957-c58fd717-19ee-42e2-8bea-e7f52f9e2575.png)
 <p align="center">Fig.12 Selecting the model files </p>
