@@ -38,3 +38,10 @@ Because the standby power in a CMOS inverter is relatively low, size may be depe
 | pMOS | 0.2 µm | 0.03 µm |
 | nMOS | 0.1 µm | 0.03 µm |
 
+# Tools Used
+
+- **Synopsys Custom Compiler** : A design environment which is a modern solution for full-custom analog, custom digital, and mixed-signal IC design.
+- **Synopsys Primewave** : for simulating the designed circuits under different conditions and time scales.
+- **Synopsys 28 nm PDK** : A process design kit which has a comprehensive collection of 28nm transistor sets and libraries.
+
+# Next
