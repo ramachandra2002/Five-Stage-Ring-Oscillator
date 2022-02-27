@@ -12,8 +12,7 @@ This is the detailed report about the design of Five Stage Ring Oscillator using
 A Ring Oscillator is device which uses a odd number of inverters to make oscillations. This circuit has a positive feedback loop which helps to attain sustained oscillations. Here in this design we are going design a five stage ring oscillator. These ring oscillator circuits are used in Integrated Circuits which has low power applications. In this repo, we are going to design and analyse the five stage ring oscillator.
 
 # Circuit Design
-The ring oscillator is designed using odd number of inverters as a chain. Here we use CMOS inverter, which has complementary MOS transistors: pMOS on the top and nMOS on the bottom. The frequency of the oscillations produced depends upon the gate delay of the MOSFET, which is the finite time between the change of input and the corresponding change of
-output. If we add inverters to the existing circuit, the total gate delay increases, thereby decreasing the frequency. The frequency of oscillations of N stage ring oscillator is given by,
+The ring oscillator is designed using odd number of inverters as a chain. Here we use CMOS inverter, which has complementary MOS transistors: pMOS on the top and nMOS on the bottom. The frequency of the oscillations produced depends upon the gate delay of the MOSFET, which is the finite time between the change of input and the corresponding change ofnoutput. If we add inverters to the existing circuit, the total gate delay increases, thereby decreasing the frequency. The frequency of oscillations of N stage ring oscillator is given by,
 
 ![Screenshot 2022-02-26 1710251](https://user-images.githubusercontent.com/89923461/155841843-bd6016e2-d39e-48f5-8735-7e6448c12a58.png)
 
@@ -62,21 +61,30 @@ This CMOS inverter is designed as a schematic and then implemented as a symbol f
 As we saw earlier in the circuit design, the enable circuit is basically a NAND gate which acts like switching circuit for the oscillator. In the first input of the NAND gate we give a voltage pulse (*which mimics the switch ON and OFF*) and in the other input we give the feedback loop from the final stage of the oscillator. When the first input is ON, the NAND gate acts ike a inverter which is placed as the first stage of the oscillator. 
 
 ![sch_Screenshot 2022-02-26 220758](https://user-images.githubusercontent.com/89923461/155869145-6be32408-2bb3-45ed-be28-775c0e296c0c.png)
-<p align="center">Fig.3 Schematic of a Enable Circuit </p>
+<p align="center">Fig.5 Schematic of a Enable Circuit </p>
 
 ![symbol_Screenshot 2022-02-26 221002](https://user-images.githubusercontent.com/89923461/155869157-4bd32c8e-5931-4db6-b029-e26fa8dbf72c.png)
-<p align="center">Fig.4 Enable Circuit as a Symbol</p>
+<p align="center">Fig.6 Enable Circuit as a Symbol</p>
 
 ## Ring Oscillator
 Using the symbols created for the CMOS inverter and the enable circuit, we design a schematic for the five stage ring oscillator. The enable circuit is the first stage and the CMOS inverter is used for the rest of the four stages.
 
 ![sch_Screenshot 2022-02-26 221344](https://user-images.githubusercontent.com/89923461/155869260-476efcc8-2641-47f3-802c-454d078f2619.png)
-<p align="center">Fig.3 Schematic of the five stage ring oscillator </p>
+<p align="center">Fig.7 Schematic of the five stage ring oscillator </p>
 
 ![symbol_Screenshot 2022-02-26 221456](https://user-images.githubusercontent.com/89923461/155869262-f35ced3a-e6d5-4feb-a7f3-304b7f44e5d7.png)
-<p align="center">Fig.4 Five stage ring oscillator as a Symbol</p>
+<p align="center">Fig.8 Five stage ring oscillator as a Symbol</p>
 
 # Simulation and Waveforms 
+The final simulations of the five stage ring oscillator circuit are obtained through PrimeWave™ Design Environment using its TestSuite and Waveform viewer.
+
+## Testbench
+The five stage ring oscillator is simulated by created a schematic using the *ring_oscillator* symbol and connecting it with the vdc and vpulse, a square wave generating voltage source.
+
+![tb_Screenshot 2022-02-26 221713](https://user-images.githubusercontent.com/89923461/155869516-e044a2b5-364d-4a36-94f5-52203143316a.png)
+<p align="center">Fig.9 Testbench for the Five stage ring oscillator</p>
+
+## Parameter for V<sub>dc</sub>
 
 
 
