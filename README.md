@@ -202,6 +202,23 @@ v2 enable gnd! dc=0 pulse ( 5 0 0 10p 10p 200p 400p )
 
 .end
 ```
+## Waveforms 
+![grouped_pic_Picture1](https://user-images.githubusercontent.com/89923461/155870620-43ee3632-dd86-4b69-80a9-14d4f03f5214.png)
+<p align="center">Fig.14 Grouped vout and enable waveforms </p>
+
+> To view the two waveforms separately, right click on the waveform viewer and click ungroup
+
+![ungroup_Screenshot 2022-02-26 222450](https://user-images.githubusercontent.com/89923461/155870674-f7bdb50f-51a0-44fc-ac82-c3527de30c30.png)
+<p align="center">Fig.15 Ungrouped vout and enable waveforms </p>
+
+For calculating the frequency of the oscillations produced, use the cursors in the tab and constrict it to a period in the wave.
+
+![freq_Screenshot 2022-02-26 223259](https://user-images.githubusercontent.com/89923461/155870707-6d34b3b5-24de-473c-9525-84316c41c013.png)
+<p align="center">Fig.16 Calculating Period of the Wave </p>
+
+The period of the oscillation in found to be 22.5 ps. So, the frequency of the oscillated wave is 44.44 GHz
+
+
 
 
 
