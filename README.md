@@ -44,4 +44,14 @@ Because the standby power in a CMOS inverter is relatively low, size may be depe
 - **Synopsys Primewave** : for simulating the designed circuits under different conditions and time scales.
 - **Synopsys 28 nm PDK** : A process design kit which has a comprehensive collection of 28nm transistor sets and libraries.
 
-# Next
+# Schematics 
+The schematics of the cmos inverter, enable circuit and the final ring oscillator circuit is designed using the *Synopsys’ PrimeSim™ HSPICE®* powered schematic editor.
+
+## CMOS Inverter
+This CMOS inverter is designed as a schematic and then implemented as a symbol for later integration into the final circuit of the ring oscillator. Creating symbols of separate stages of circuit helps us to debug the circuit easily by implementing it through various testbench conditions. Another advantage of creating a symbol is to have it industry ready and be as a reference for creating other circuits.
+
+![sch_Screenshot 2022-02-26 202304](https://user-images.githubusercontent.com/89923461/155868945-a0db3a46-0a49-4a4f-aeb9-ab6077f45c6d.png)
+
+![symbol_Screenshot 2022-02-26 202502](https://user-images.githubusercontent.com/89923461/155868951-fa207151-69f7-43a8-bb6f-074ef63e401d.png)
+
+
