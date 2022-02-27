@@ -2,11 +2,15 @@
 This is the detailed report about the design of Five Stage Ring Oscillator using CMOS technology. This is design was created in part of Cloud based Analog IC Hackathon conducted by IIT-Hyderabad and VSD Corp.
 
 # Contents
-- [Introduction](/Five-Stage-Ring-Oscillator#introduction)
-- Circuit Design
-- Tools Used
-- Schematics
-- Waveforms
+- [Introduction](https://github.com/ramachandra2002/Five-Stage-Ring-Oscillator#introduction)
+- [Circuit Design](https://github.com/ramachandra2002/Five-Stage-Ring-Oscillator#circuit-design)
+- [Tools Used](https://github.com/ramachandra2002/Five-Stage-Ring-Oscillator#tools-used)
+- [Schematics](https://github.com/ramachandra2002/Five-Stage-Ring-Oscillator#schematics)
+- [Simulations and Waveforms](https://github.com/ramachandra2002/Five-Stage-Ring-Oscillator#simulation-and-waveforms)
+- [Conclusion](https://github.com/ramachandra2002/Five-Stage-Ring-Oscillator#conclusion)
+- [Author](https://github.com/ramachandra2002/Five-Stage-Ring-Oscillator#author)
+- [Acknowledgement](https://github.com/ramachandra2002/Five-Stage-Ring-Oscillator#acknowledgement)
+- [References](https://github.com/ramachandra2002/Five-Stage-Ring-Oscillator#references)
 
 # Introduction
 A Ring Oscillator is device which uses a odd number of inverters to make oscillations. This circuit has a positive feedback loop which helps to attain sustained oscillations. Here in this design we are going design a five stage ring oscillator. These ring oscillator circuits are used in Integrated Circuits which has low power applications. In this repo, we are going to design and analyse the five stage ring oscillator.
