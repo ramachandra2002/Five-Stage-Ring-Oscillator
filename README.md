@@ -206,6 +206,7 @@ v2 enable gnd! dc=0 pulse ( 5 0 0 10p 10p 200p 400p )
 ![grouped_pic_Picture1](https://user-images.githubusercontent.com/89923461/155870620-43ee3632-dd86-4b69-80a9-14d4f03f5214.png)
 <p align="center">Fig.14 Grouped vout and enable waveforms </p>
 
+From the waveform we can see that the oscillation is obtained only when the enable in HIGH and the oscillation ceases to exist when enable is LOW.
 > To view the two waveforms separately, right click on the waveform viewer and click ungroup
 
 ![ungroup_Screenshot 2022-02-26 222450](https://user-images.githubusercontent.com/89923461/155870674-f7bdb50f-51a0-44fc-ac82-c3527de30c30.png)
@@ -217,6 +218,30 @@ For calculating the frequency of the oscillations produced, use the cursors in t
 <p align="center">Fig.16 Calculating Period of the Wave </p>
 
 The period of the oscillation in found to be 22.5 ps. So, the frequency of the oscillated wave is 44.44 GHz
+
+# Conclusion
+
+Thus the five stage ring Oscillator is designed using the tools and suite of *Synopsys Custom Compiler™* and simulated and analysed through the *PrimeWave™ Design Environment*.
+For the given voltage supply of 5 V, the frequency of the oscillation obtained is 44.44 GHz.
+
+# Author
+
+Ramachandra T, Bachelors in Engineering at Madras Institute of Technology, Anna University
+
+# Acknowledgement
+
+- Kunal Ghosh, VSD Corp. Pvt. Ltd
+- Chinmay Panda, IIT-Hyderabad
+- Synopsys Team
+- IIT-Hyderabad (*for this amazing hackathon*)
+
+# References
+
+1. K. Gajula, “Design of 5-Stage Ring Oscillator using Mentor Graphics 130nm Technology,” Journal of Mechanics of Continua and Mathematical, vol. 14, no. 5, Sept., pp. 520- 526, 2019
+2. B. Razavi, Design of Analog CMOS Integrated Circuits. New York: McGraw-Hill Education, 2017
+3. S. Chauhan, R. Mehra, “CMOS Design and Performance Analysis of Ring Oscillator for Different Stages,” International Journal of Engineering Trends and Technology, vol. 32, no. 5, Feb., pp. 234- 237, 2016
+
+
 
 
 
