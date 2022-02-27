@@ -90,7 +90,18 @@ The five stage ring oscillator is simulated by created a schematic using the *ri
 
 ## Parameters for V<sub>pulse</sub>
 ![vpulse_Picture1](https://user-images.githubusercontent.com/89923461/155869710-18d426ed-7a5d-457b-a2ce-6161d1f89b11.png)
-<p align="center">Fig.10 Parameters for  V<sub>pulse</sub> </p>
+<p align="center">Fig.11 Parameters for  V<sub>pulse</sub> </p>
+
+## Testbench Settings
+After setting parameters of the voltage sources of the testbench circuit, we have to include the model files from this location, '''/PDK/SAED_PDK32nm/hspice''' and select the file, *saed32nm.lib*.
+
+![model_Picture1](https://user-images.githubusercontent.com/89923461/155869957-c58fd717-19ee-42e2-8bea-e7f52f9e2575.png)
+<p align="center">Fig.12 Selecting the model files </p>
+
+After selecting the model files from the location, click *Analyses* to set the transient settings and keep the *start time* and *stop time* for the simulation. In the *Outputs* tab, select expression and add new and click on the circuit icon to select the node to be observed. Select *Simulation* tab and click the option *Netlist and Run* to obtain the waveforms.
+
+![tran_Picture1](https://user-images.githubusercontent.com/89923461/155870120-34afcf68-1022-4191-a956-8f7145e9b97d.png)
+<p align="center">Fig.13 Analyses Settings </p>
 
 
 
