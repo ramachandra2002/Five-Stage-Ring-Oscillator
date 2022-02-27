@@ -84,13 +84,13 @@ The five stage ring oscillator is simulated by created a schematic using the *ri
 ![tb_Screenshot 2022-02-26 221713](https://user-images.githubusercontent.com/89923461/155869516-e044a2b5-364d-4a36-94f5-52203143316a.png)
 <p align="center">Fig.9 Testbench for the Five stage ring oscillator</p>
 
-## Parameter for V<sub>dc</sub>
+## Parameters for V<sub>dc</sub>
+![vdc_Picture1](https://user-images.githubusercontent.com/89923461/155869669-d4f13311-e2a9-4a29-908f-0ee201bb9741.png)
+<p align="center">Fig.10 Parameters for  V<sub>dc</sub> </p>
 
-
-
-
-
-
+## Parameters for V<sub>pulse</sub>
+![vpulse_Picture1](https://user-images.githubusercontent.com/89923461/155869710-18d426ed-7a5d-457b-a2ce-6161d1f89b11.png)
+<p align="center">Fig.10 Parameters for  V<sub>pulse</sub> </p>
 
 
 
