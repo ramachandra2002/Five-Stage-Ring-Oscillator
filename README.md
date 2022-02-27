@@ -24,9 +24,11 @@ where t<sub>r</sub> is rise in time and t<sub>f</sub> is fall time. In this desi
 ![circuit diagram](https://user-images.githubusercontent.com/89923461/155842061-6d56608b-3953-4db8-acda-2fbb5934dcca.jpg)
 <p align="center"> Fig.1 Reference circuit diagram of a Five Stage Ring Oscillator </p>
 
+
 ## Reference Waveform
 ![waveform](https://user-images.githubusercontent.com/89923461/155842125-823f3f82-98f0-460b-96e5-9cc5524bf219.jpg)
 <p align="center"> Fig.2 Reference Waveform </p>
+
 
 From Fig.1, reference circuit design, we can see the enable circuit which comprises of the pMOS M1, M2 and nMOS M3, M4. The inverter in each stage consists of a pMOS and nMOS. Power supply for the circuit is given through VDD and VA acts as the enable pin. The output waveform is obtained through VOUT when VDD = 5V and VA=5V, which represented through Fig.2, Reference Output Waveform.
 
@@ -48,10 +50,24 @@ Because the standby power in a CMOS inverter is relatively low, size may be depe
 The schematics of the cmos inverter, enable circuit and the final ring oscillator circuit is designed using the *Synopsys’ PrimeSim™ HSPICE®* powered schematic editor.
 
 ## CMOS Inverter
-This CMOS inverter is designed as a schematic and then implemented as a symbol for later integration into the final circuit of the ring oscillator. Creating symbols of separate stages of circuit helps us to debug the circuit easily by implementing it through various testbench conditions. Another advantage of creating a symbol is to have it industry ready and be as a reference for creating other circuits.
+This CMOS inverter is designed as a schematic and then implemented as a symbol for later integration into the final circuit of the ring oscillator. Creating *symbols* of separate stages of circuit helps us to debug the circuit easily by implementing it through various testbench conditions. Another advantage of creating a symbol is to have it industry ready and be as a reference for creating other circuits.
 
 ![sch_Screenshot 2022-02-26 202304](https://user-images.githubusercontent.com/89923461/155868945-a0db3a46-0a49-4a4f-aeb9-ab6077f45c6d.png)
+<p align="center">Fig.3 Schematic of a CMOS Inverter </p>
 
 ![symbol_Screenshot 2022-02-26 202502](https://user-images.githubusercontent.com/89923461/155868951-fa207151-69f7-43a8-bb6f-074ef63e401d.png)
+<p align="center">Fig.4 CMOS inverter as a Symbol</p>
+
+## Enable Circuit
+As we saw earlier in the circuit design, the enable circuit is basically a NAND gate which acts like switching circuit for the oscillator. In the first input of the NAND gate we give a voltage pulse (*which mimics the switch ON and OFF*) and in the other input we give the feedback loop from the final stage of the oscillator. When the first input is ON, the NAND gate acts ike a inverter which is placed as the first stage of the oscillator. 
+
+![sch_Screenshot 2022-02-26 220758](https://user-images.githubusercontent.com/89923461/155869145-6be32408-2bb3-45ed-be28-775c0e296c0c.png)
+<p align="center">Fig.3 Schematic of a Enable Circuit </p>
+
+![symbol_Screenshot 2022-02-26 221002](https://user-images.githubusercontent.com/89923461/155869157-4bd32c8e-5931-4db6-b029-e26fa8dbf72c.png)
+<p align="center">Fig.4 Enable Circuit as a Symbol</p>
+
+
+
 
 
