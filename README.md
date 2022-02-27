@@ -105,8 +105,11 @@ After selecting the model files from the location, click *Analyses* to set the t
 
 ##  Netlist
 To view the Netlist, go to Simulation tab and Netlist -> View Netlist
+![netlist_Picture1](https://user-images.githubusercontent.com/89923461/155870521-88f81713-1f4d-4abc-9e16-857255c5963e.png)
+<p align="center">Fig.14 Netlist of the testbench circuit</p>
 
-'''
+
+```
 *  Generated for: PrimeSim
 *  Design library name: sm_five_stage
 *  Design cell name: five_st_ro_tb
@@ -197,7 +200,7 @@ v2 enable gnd! dc=0 pulse ( 5 0 0 10p 10p 200p 400p )
 
 
 .end
-'''
+```
 
 
 
