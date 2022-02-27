@@ -67,6 +67,34 @@ As we saw earlier in the circuit design, the enable circuit is basically a NAND 
 ![symbol_Screenshot 2022-02-26 221002](https://user-images.githubusercontent.com/89923461/155869157-4bd32c8e-5931-4db6-b029-e26fa8dbf72c.png)
 <p align="center">Fig.4 Enable Circuit as a Symbol</p>
 
+## Ring Oscillator
+Using the symbols created for the CMOS inverter and the enable circuit, we design a schematic for the five stage ring oscillator. The enable circuit is the first stage and the CMOS inverter is used for the rest of the four stages.
+
+![sch_Screenshot 2022-02-26 221344](https://user-images.githubusercontent.com/89923461/155869260-476efcc8-2641-47f3-802c-454d078f2619.png)
+<p align="center">Fig.3 Schematic of the five stage ring oscillator </p>
+
+![symbol_Screenshot 2022-02-26 221456](https://user-images.githubusercontent.com/89923461/155869262-f35ced3a-e6d5-4feb-a7f3-304b7f44e5d7.png)
+<p align="center">Fig.4 Five stage ring oscillator as a Symbol</p>
+
+# Simulation and Waveforms 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
