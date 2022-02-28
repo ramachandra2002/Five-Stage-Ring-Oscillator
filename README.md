@@ -234,9 +234,10 @@ Ramachandra T, Bachelors degree in Electronics and Communication Engineering at 
 
 # Acknowledgement
 
-- Kunal Ghosh, VSD Corp. Pvt. Ltd
-- Chinmay Panda, IIT-Hyderabad
-- Synopsys Team
+- Kunal Ghosh, VSD Corp. Pvt. Ltd (*for consistent suuport*)
+- Chinmay Panda, IIT-Hyderabad (*for solving tool-related queries*)
+- Sumanto Kar, IIT-B (*thanks for solving those doubts*)
+- Synopsys Team (*for giving access to industry-grade tool till completion of the hackathon*) 
 - IIT-Hyderabad (*for this amazing hackathon*)
 
 # References
